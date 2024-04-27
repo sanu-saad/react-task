@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .input {
+      @apply bg-gray-50 border border-gray-300 text-gray-900 text-lg rounded-lg focus:ring-blue-800 focus:border-blue-500 block w-1/2 mx-auto p-2.5 mb-5 
+    }
+    .btn {
+      @apply bg-green-600 rounded p-1.5 text-white w-1/2
+    }
+    .btn:hover {
+      @apply bg-green-800
+    }
+  }
